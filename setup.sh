@@ -4,7 +4,7 @@
 #***********************************************************************************
 #	UBUNTU INSTALL
 #***********************************************************************************
-function ubuntu_install()
+ubuntu_install()
 {
     sudo apt update && sudo apt upgrade -y 
     echo 'Install essential tools' 
@@ -33,7 +33,7 @@ function ubuntu_install()
 #***********************************************************************************
 #	ARCH INSTALL
 #***********************************************************************************
-function arch_install()
+arch_install()
 {
     echo 'installing on arch...'
 }
